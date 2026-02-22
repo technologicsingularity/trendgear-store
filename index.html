@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrendGear - 2026 Winter Olympics & Sports Fan Designs</title>
+<meta name="description" content="Unique 2026 Winter Olympics and sports fan merchandise. T-shirts, hoodies, mugs and more with trending designs. Ships worldwide.">
+<meta name="keywords" content="2026 Olympics merchandise, winter olympics shirt, hockey fan gear, sports t-shirts, print on demand">
+<link rel="canonical" href="https://technologicsingularity.github.io/trendgear-store/">
+<style>
+  :root{--purple:#6c3fc5;--pink:#e91e8c;--dark:#1a1a2e;--light:#f8f9fa;--gold:#f5a623}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',sans-serif;color:#333;line-height:1.6}
+  header{background:var(--dark);color:#fff;padding:1rem 0;position:sticky;top:0;z-index:100}
+  .container{max-width:1100px;margin:0 auto;padding:0 1.5rem}
+  nav{display:flex;justify-content:space-between;align-items:center}
+  .logo{font-size:1.5rem;font-weight:800;text-decoration:none;background:linear-gradient(135deg,var(--purple),var(--pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+  nav ul{list-style:none;display:flex;gap:1.5rem}
+  nav a{color:#ccc;text-decoration:none;font-weight:500}
+  nav a:hover{color:#fff}
+  .hero{background:linear-gradient(135deg,var(--dark) 0%,#16213e 50%,#0f3460 100%);color:#fff;padding:5rem 0;text-align:center;position:relative;overflow:hidden}
+  .hero-bg{position:absolute;inset:0;opacity:.05;font-size:8rem;display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:center;pointer-events:none}
+  .hero h1{font-size:3rem;font-weight:800;margin-bottom:1rem;position:relative}
+  .hero h1 span{background:linear-gradient(135deg,var(--purple),var(--pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+  .hero p{font-size:1.2rem;opacity:.85;margin-bottom:2rem;max-width:600px;margin-left:auto;margin-right:auto;position:relative}
+  .btn{display:inline-block;padding:.9rem 2.2rem;border-radius:50px;font-weight:700;text-decoration:none;transition:.3s;font-size:1rem}
+  .btn-primary{background:linear-gradient(135deg,var(--purple),var(--pink));color:#fff}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(108,63,197,.4)}
+  .btn-outline{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.4);margin-left:1rem}
+  .btn-outline:hover{background:rgba(255,255,255,.1)}
+  .section{padding:4rem 0}
+  .section-alt{background:var(--light)}
+  h2{font-size:2rem;color:var(--dark);margin-bottom:.5rem}
+  .subtitle{color:#666;margin-bottom:2.5rem}
+  .products-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem}
+  .product-card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);transition:.3s}
+  .product-card:hover{transform:translateY(-6px);box-shadow:0 12px 35px rgba(0,0,0,.15)}
+  .product-img{height:220px;display:flex;align-items:center;justify-content:center;font-size:5rem;position:relative}
+  .product-badge{position:absolute;top:1rem;right:1rem;background:var(--pink);color:#fff;padding:.2rem .7rem;border-radius:20px;font-size:.75rem;font-weight:700}
+  .product-body{padding:1.5rem}
+  .product-body h3{font-size:1.1rem;margin-bottom:.3rem;color:var(--dark)}
+  .product-body p{color:#666;font-size:.9rem;margin-bottom:1rem}
+  .product-price{font-size:1.3rem;font-weight:700;color:var(--purple)}
+  .product-actions{display:flex;gap:.5rem;margin-top:1rem}
+  .btn-sm{padding:.5rem 1.2rem;font-size:.85rem;border-radius:25px}
+  .categories{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:2rem}
+  .cat-btn{padding:.5rem 1.2rem;border-radius:25px;border:2px solid #ddd;background:#fff;cursor:pointer;font-weight:600;transition:.3s;font-size:.9rem}
+  .cat-btn.active,.cat-btn:hover{background:var(--purple);color:#fff;border-color:var(--purple)}
+  .features{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;margin-top:2rem}
+  .feature{text-align:center;padding:1.5rem}
+  .feature-icon{font-size:2.5rem;margin-bottom:.8rem}
+  .feature h3{color:var(--dark);margin-bottom:.3rem;font-size:1rem}
+  .feature p{color:#666;font-size:.85rem}
+  .platforms{display:flex;gap:2rem;justify-content:center;flex-wrap:wrap;margin-top:2rem}
+  .platform{background:#fff;border-radius:12px;padding:1.5rem 2rem;text-align:center;box-shadow:0 3px 15px rgba(0,0,0,.08);min-width:150px}
+  .platform-icon{font-size:2rem;margin-bottom:.5rem}
+  .platform h4{color:var(--dark);font-size:.95rem}
+  .platform p{color:#666;font-size:.8rem}
+  .newsletter{background:linear-gradient(135deg,var(--purple),var(--pink));color:#fff;padding:4rem 0;text-align:center}
+  .newsletter h2{color:#fff;font-size:2rem;margin-bottom:.5rem}
+  .newsletter p{opacity:.9;margin-bottom:2rem}
+  .newsletter-form{display:flex;gap:1rem;justify-content:center;max-width:500px;margin:0 auto}
+  .newsletter-form input{flex:1;padding:.9rem 1.5rem;border-radius:50px;border:none;font-size:1rem}
+  footer{background:var(--dark);color:#aaa;padding:2rem 0;text-align:center}
+  footer a{color:var(--gold);text-decoration:none}
+  @media(max-width:768px){
+    .products-grid{grid-template-columns:1fr}
+    .features{grid-template-columns:repeat(2,1fr)}
+    .hero h1{font-size:2rem}
+    nav ul{display:none}
+    .newsletter-form{flex-direction:column}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <a href="/" class="logo">⚡ TrendGear</a>
+      <ul>
+        <li><a href="#products">Shop</a></li>
+        <li><a href="#platforms">Where to Buy</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg">🏒⛷️⛸️🏔️🎿🥌🏂❄️🏒⛷️⛸️🏔️🎿🥌🏂❄️</div>
+  <div class="container">
+    <h1>Wear the <span>Trend</span>.<br>Own the Moment.</h1>
+    <p>Exclusive 2026 Winter Olympics and sports fan designs. Limited edition prints on premium quality apparel and accessories.</p>
+    <a href="#products" class="btn btn-primary">🛍️ Shop Now</a>
+    <a href="#platforms" class="btn btn-outline">Where to Buy</a>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="features">
+      <div class="feature"><div class="feature-icon">🎨</div><h3>Unique Designs</h3><p>AI-generated exclusive artwork you won't find anywhere else</p></div>
+      <div class="feature"><div class="feature-icon">👕</div><h3>Premium Quality</h3><p>Printed on high-quality Bella+Canvas and Gildan blanks</p></div>
+      <div class="feature"><div class="feature-icon">🌍</div><h3>Ships Worldwide</h3><p>Fast international shipping to 180+ countries</p></div>
+      <div class="feature"><div class="feature-icon">✅</div><h3>Satisfaction Guaranteed</h3><p>30-day returns on all orders, no questions asked</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="products">
+  <div class="container">
+    <h2>🔥 Trending Designs</h2>
+    <p class="subtitle">Hot right now — inspired by the 2026 Winter Olympics</p>
+    <div class="categories">
+      <button class="cat-btn active">All</button>
+      <button class="cat-btn">🏒 Hockey</button>
+      <button class="cat-btn">⛷️ Skiing</button>
+      <button class="cat-btn">⛸️ Skating</button>
+      <button class="cat-btn">🏔️ Olympics</button>
+      <button class="cat-btn">❄️ Winter</button>
+    </div>
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="product-img" style="background:linear-gradient(135deg,#1a3a6b,#2d6abf)">
+          🏒
+          <span class="product-badge">🔥 Hot</span>
+        </div>
+        <div class="product-body">
+          <h3>Milan 2026 Hockey Fan Tee</h3>
+          <p>Show your love for Olympic hockey with this bold, minimalist design</p>
+          <div class="product-price">From $24.99</div>
+          <div class="product-actions">
+            <a href="https://www.redbubble.com/shop/ap/hockey+2026+olympics" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Buy on Redbubble</a>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:linear-gradient(135deg,#c0392b,#e74c3c)">
+          ⛷️
+          <span class="product-badge">New</span>
+        </div>
+        <div class="product-body">
+          <h3>Alpine Speed — Cortina 2026</h3>
+          <p>Dynamic alpine skiing design celebrating the Cortina d'Ampezzo venue</p>
+          <div class="product-price">From $24.99</div>
+          <div class="product-actions">
+            <a href="https://www.redbubble.com/shop/ap/alpine+skiing+2026" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Buy on Redbubble</a>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:linear-gradient(135deg,#6c3fc5,#9b59b6)">
+          ⛸️
+        </div>
+        <div class="product-body">
+          <h3>Figure Skating Elegance</h3>
+          <p>Graceful figure skating silhouette on premium soft tees and hoodies</p>
+          <div class="product-price">From $24.99</div>
+          <div class="product-actions">
+            <a href="https://www.redbubble.com/shop/ap/figure+skating+2026+olympics" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Buy on Redbubble</a>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:linear-gradient(135deg,#27ae60,#2ecc71)">
+          🥌
+          <span class="product-badge">Fan Fav</span>
+        </div>
+        <div class="product-body">
+          <h3>Curling Is My Sport</h3>
+          <p>Funny curling fan design — perfect gift for the curling enthusiast</p>
+          <div class="product-price">From $22.99</div>
+          <div class="product-actions">
+            <a href="https://www.redbubble.com/shop/ap/curling+sport+funny" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Buy on Redbubble</a>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:linear-gradient(135deg,#f39c12,#f5a623)">
+          🏂
+        </div>
+        <div class="product-body">
+          <h3>Snowboard Halfpipe Hero</h3>
+          <p>Bold snowboard graphic celebrating the Livigno halfpipe events</p>
+          <div class="product-price">From $26.99</div>
+          <div class="product-actions">
+            <a href="https://www.redbubble.com/shop/ap/snowboard+2026+olympics" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Buy on Redbubble</a>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:linear-gradient(135deg,#1a3a6b,#c0392b)">
+          🏔️
+          <span class="product-badge">🇮🇹 Italy</span>
+        </div>
+        <div class="product-body">
+          <h3>Milan-Cortina 2026 Souvenir</h3>
+          <p>Classic Olympic rings with Italian Alps — the ultimate 2026 souvenir tee</p>
+          <div class="product-price">From $24.99</div>
+          <div class="product-actions">
+            <a href="https://www.redbubble.com/shop/ap/milan+cortina+2026+olympics" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Buy on Redbubble</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="platforms">
+  <div class="container">
+    <h2>🛒 Where to Find Our Designs</h2>
+    <p class="subtitle">Available on multiple print-on-demand platforms for your convenience</p>
+    <div class="platforms">
+      <div class="platform"><div class="platform-icon">🫧</div><h4>Redbubble</h4><p>T-shirts, stickers, mugs & more</p><a href="https://www.redbubble.com" target="_blank" rel="noopener" class="btn btn-primary btn-sm" style="margin-top:.8rem;display:inline-block">Shop Now</a></div>
+      <div class="platform"><div class="platform-icon">👕</div><h4>TeePublic</h4><p>Apparel & accessories</p><a href="https://www.teepublic.com" target="_blank" rel="noopener" class="btn btn-primary btn-sm" style="margin-top:.8rem;display:inline-block">Shop Now</a></div>
+      <div class="platform"><div class="platform-icon">🖨️</div><h4>Printify</h4><p>Custom bulk orders</p><a href="https://printify.com" target="_blank" rel="noopener" class="btn btn-primary btn-sm" style="margin-top:.8rem;display:inline-block">Shop Now</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter">
+  <div class="container">
+    <h2>🔔 Get New Designs First</h2>
+    <p>Subscribe for exclusive drops, discounts, and trending Olympic designs delivered to your inbox.</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="your@email.com">
+      <button class="btn btn-outline" style="white-space:nowrap">Subscribe Free</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2026 TrendGear | Powered by print-on-demand | <a href="https://www.redbubble.com" target="_blank">Shop on Redbubble</a> | Fan site — not affiliated with IOC</p>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.cat-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.cat-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>
